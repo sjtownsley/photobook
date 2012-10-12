@@ -1,4 +1,4 @@
-class CreateStatuses < ActiveRecord::Migration
+qclass CreateStatuses < ActiveRecord::Migration
   def change
     create_table :statuses do |t|
       t.string :name
